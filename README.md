@@ -18,15 +18,17 @@ Docker is required. See the [official installation documentation.](https://docs.
 Clone the rep and install the dependencies.
 
 ```sh
-$ git clone git@github.com:dedyannacacau/infomarket-test-crud.git
-$ cd infomarket-test-crud
+$ git clone git@github.com:dedyannacacau/infomarket-test.git
+$ cd infomarket-test
+$ cd server / cd web
 $ yarn
 ```
 
 ### Running:
 
 ```sh
-$ yarn dev
+$ server -> yarn dev
+$ web -> yarn start
 ```
 
 # License
